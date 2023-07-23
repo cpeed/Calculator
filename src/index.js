@@ -1,4 +1,3 @@
-import isEmpty from 'lodash';
 const inputStrings = document.getElementsByClassName("input-string");
 const buttons = document.getElementsByClassName("button");
 let operand1 = 0;
