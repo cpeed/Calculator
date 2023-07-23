@@ -6,6 +6,20 @@ let inputText = "0"; // Assign inputStrings[0].textContent to a variable
 
 inputStrings[0].textContent = inputText;
 
+document.addEventListener("keydown", (event) => {
+    const key = event.key;
+    for (let i = 0; i < buttons.length; i++) {
+        if(buttons[i].textContent==key)
+        {
+            buttons[i].click();
+        }
+    
+}
+  });
+  
+  
+  
+
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", () => {
     const checkButton = buttons[i].textContent.replace(/\s+/g, '');
