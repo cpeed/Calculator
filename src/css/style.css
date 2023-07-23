@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 8px 8px;
+        width: 320px;
+        height: 496px;
+        background-color: #1e1e1e;
+        border: 1px solid #1e1e1e;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        text-overflow: hidden; 
+        white-space: nowrap;
+}
+.input-area{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    
+}
+.input-string{
+    font-size: 3rem;
+}
+
+.buttons-area{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    height: 100%;
+    
+}
+.button{
+    background-color: #3c3c3c;
+    width: 4.8125rem;
+    height: 2.9375rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.11rem;
+    border-radius: 10%;
+    margin: 1px;
+}
+.button:hover{
+    background-color: #323232;
+}
+.button:active{
+    background-color: #282828;
+}
+.operator{
+    background-color: #282828;
+}
+.operator:hover{
+    background-color: #3c3c3c;;
+}
+.answer{
+    background-color: #47b1e8;
+    color: black;
+}
+.answer:hover{
+    background-color: #2a93c7;
+}
+.answer:active{
+    background-color: #17b1e8;
+}
+
