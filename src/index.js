@@ -6,6 +6,8 @@ let inputText = "0"; // Assign inputStrings[0].textContent to a variable
 
 inputStrings[0].textContent = inputText;
 
+if(document){
+
 document.addEventListener("keydown", (event) => {
     const key = event.key;
     for (let i = 0; i < buttons.length; i++) {
@@ -17,7 +19,7 @@ document.addEventListener("keydown", (event) => {
 }
   });
   
-  
+}
   
 
 for (let i = 0; i < buttons.length; i++) {
