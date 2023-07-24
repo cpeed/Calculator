@@ -6,7 +6,7 @@ let inputText = "0"; // Assign inputStrings[0].textContent to a variable
 
 inputStrings[0].textContent = inputText;
 
-if(document){
+if(document !== undefined){
 
 document.addEventListener("keydown", (event) => {
     const key = event.key;
